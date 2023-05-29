@@ -1,0 +1,16 @@
+.Footer {
+    background-color: #02E3E8;
+    grid-area: Footer;
+    height: 5vh;
+    bottom: 0;
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+   flex-direction: row-reverse;
+}
+
+.Footer>p {
+    font: normal 16px normal;
+    font-family:'Marmelad-Regular';
+}

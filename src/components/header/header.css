@@ -1,0 +1,28 @@
+.Header {
+    background-color: #02E3E8;
+    grid-area: Header;
+    height: 12vh;
+    top:0;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#img0 {
+    background: url("../../pics/pic0.png") no-repeat;
+    width: 58px;
+    height: 60px;
+
+    background-size: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
